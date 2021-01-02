@@ -4,7 +4,7 @@ const config = require('config');
 const { route } = require('./routes/auth.router');
 
 const app = express()
-const PORT = config.get('port') || 80;
+const PORT = config.get('port') || 5000;
 
 app.use(express.json({extended: true}))
 
